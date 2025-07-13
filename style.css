@@ -1,20 +1,20 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
-.container {
-    max-width: 1300px;
+.main  {
+    display: grid;
+    grid-template-columns: 300px auto;
+    max-width: 1000px;
     margin-inline: auto;
+    font-size: 21px;
+
+}
+.leftside {
+    background-color: aqua;
+}
+.rightside {
+    background-color: brown;
+    align-items: center;
+    justify-items: center;
+    
+}
+.contact {
+    padding-left: 10px;
 }
