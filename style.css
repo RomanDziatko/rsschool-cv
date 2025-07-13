@@ -18,3 +18,15 @@
 .contact {
     padding-left: 10px;
 }
+.footer {   
+    max-width: 1000px;
+    margin-inline: auto;
+    font-size: 21px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: blueviolet;
+
+}
+.link {
+    padding-left: 10px;
+}
