@@ -7,12 +7,14 @@
 
 }
 .leftside {
-    background-color: aqua;
+    background-color: rgb(220, 220, 220);
+    
+    
 }
 .rightside {
-    background-color: brown;
+    
     align-items: center;
-    justify-items: center;
+    padding-left: 15px;
     
 }
 .h1 {
@@ -24,7 +26,10 @@
 
 }
 .skills {
-    list-style-type: none;
+    
+}
+.about-me {
+    margin-left: 30px;
 }
 .contact {
     padding-left: 10px;
@@ -39,10 +44,8 @@
     font-size: 21px;
     margin-top: 0px;
     padding-top: 0px;
-    background-color: blueviolet;
-
-}
-.link-github {
+    background-color: rgb(220, 220, 220);
+    
 
 }
 .links-footer {
@@ -53,4 +56,9 @@
     max-height: 80px;
     padding-right: 20px;
     padding-left: 20px;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;color:#000;
+    
 }
