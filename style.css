@@ -27,6 +27,12 @@
     background-color: blueviolet;
 
 }
-.link {
-    padding-left: 10px;
+.link-github {
+
+}
+.links-footer {
+    list-style-type: none;
+    display: flex;
+    column-gap: 50px;
+    max-height: 80px;
 }
